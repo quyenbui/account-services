@@ -1,0 +1,23 @@
+{
+    "name": "quyenbui/account",
+    "description": "Account service",
+    "type": "microservice",
+    "authors": [
+        {
+            "name": "Quyen Bui",
+            "email": "buiquyen1995@gmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "^2.0",
+        "symfony/security": "^3.1",
+        "symfony/console": "^3.1",
+        "doctrine/dbal": "^2.5",
+        "symfony/validator": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App"
+        }
+    }
+}
